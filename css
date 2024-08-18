@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #65cdf3;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #e6c60c;
+    border: 2px solid #faf6f6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(81, 9, 117, 0.2);
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #e713ab;
+    color: #0fd7e1;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #e5d1d1;
+}
